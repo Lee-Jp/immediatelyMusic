@@ -15,3 +15,4 @@
 - 进入即刻音乐运行npm install安装依赖包
 - 运行npm run dev进行预览
 
+项目持续更新ing...
