@@ -1,21 +1,17 @@
-# cloud-music
+## 即刻音乐
+> 利用vue全家桶搭建的音乐播放器，后台采用[开源网易云音乐接口]( https://binaryify.github.io/NeteaseCloudMusicApi/#/),只保留了基础的歌单、排行榜、播放器功能，让您打开即刻就能听音乐。
 
-> A Vue.js project
+#### 技术栈
 
-## Build Setup
+- Vue2.X：采用最新Vue2.X的语法
+- Vuex：管理公共组件状态量
+- vue-router：管理单页面应用路由
+- axios：发起http请求
+- Webpack：自动化构建工具，主要配置vue-cli脚手架提供。
 
-``` bash
-# install dependencies
-npm install
+#### 安装预览
 
-# serve with hot reload at localhost:8080
-npm run dev
+- 安装[开源网易云音乐接口]( https://binaryify.github.io/NeteaseCloudMusicApi/#/)并运行
+- 进入即刻音乐运行npm install安装依赖包
+- 运行npm run dev进行预览
 
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
